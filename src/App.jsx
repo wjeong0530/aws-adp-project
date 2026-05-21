@@ -4,7 +4,7 @@ import { Authenticator } from "@aws-amplify/ui-react";
 import "@aws-amplify/ui-react/styles.css";
 
 // ⚠️ 본인의 S3 버킷 정보로 꼭 변경해 주세요!
-const S3_BUCKET_NAME = "test-file-system-boeun";
+const S3_BUCKET_NAME = "test-bucket-jwh13123123";
 const AWS_REGION = "ap-northeast-2";
 const S3_BASE_URL = `https://${S3_BUCKET_NAME}.s3.${AWS_REGION}.amazonaws.com`;
 
